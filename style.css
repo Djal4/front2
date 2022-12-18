@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(88, 174, 174);
+    font-family: 'Kumbh Sans', sans-serif;  
+}
+
+#upper, #lower {
+    position: fixed;
+    width: 55vw;
+    height: 55vh;
+    z-index: -1;
+}
+
+#upper {
+    background-image: url("images/bg-pattern-top.svg");
+    bottom: 0;
+    right: 0;
+}
+
+#lower {
+    background-image: url("images/bg-pattern-bottom.svg");
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 440px;
+    height: 470px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.upper-container {
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: cover;
+    width: 100%;
+    height: 175px;
+}
+
+.middle-container {
+    position: relative;
+    top:-50px;
+    left: 160px;
+    background-image: url("images/image-victor.jpg");
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 95px;
+    border: 5px solid white;
+    border-radius: 50%;
+    z-index: 1; 
+}
+
+.lower-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.lower-container h1, h2 {
+    margin-top: 0px;
+    display: inline;
+}
+
+.lower-container h1 {
+    font-size: 20px;
+}
+
+.lower-container h2,h3 {
+    color: lightgrey;
+}
+
+.lower-container h2 {
+    font-size:25px;
+}
+
+.lower-container h3 {
+    margin: 10px 0px;
+    font-weight: 50;
+}
+
+.lower-container hr {
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.footer {
+    display: inline;
+}
+
+.col {
+    display: inline-block;
+}
+
+.col h2 {
+    color: black;
+    display: block;
+}
+
+.col {
+    color: lightgrey;
+    text-align: center;
+    font-size: 14px;
+    font-stretch:wider;
+    font-weight: 50;
+    padding:30px;
+}
